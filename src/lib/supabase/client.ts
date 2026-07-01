@@ -7,7 +7,7 @@ export type Database = {
       users: {
         Row: {
           id: string;
-          auth_id: string | null;
+          auth_id: string | null;  // UUID from Supabase Auth
           username: string | null;
           email: string | null;
           display_name: string | null;
@@ -52,6 +52,85 @@ export type Database = {
         };
         Insert: Record<string, unknown>;
         Update: Record<string, unknown>;
+      };
+      user_dictionary: {
+        Row: {
+          id: string;
+          user_id: string;
+          word_id: string;
+          word_hy: string;
+          word_en: string;
+          word_ru: string;
+          word_type: string;
+          recording_url: string | null;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          word_id: string;
+          word_hy: string;
+          word_en: string;
+          word_ru: string;
+          word_type?: string;
+          recording_url?: string | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          word_id?: string;
+          word_hy?: string;
+          word_en?: string;
+          word_ru?: string;
+          word_type?: string;
+          recording_url?: string | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+      };
+      word_progress: {
+        Row: {
+          id: string;
+          user_id: string;
+          word_id: string;
+          status: "unknown" | "learning" | "known" | "mastered" | "forgotten";
+          strength: number;
+          last_reviewed: string | null;
+          next_review: string | null;
+          correct_count: number;
+          incorrect_count: number;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          word_id: string;
+          status?: "unknown" | "learning" | "known" | "mastered" | "forgotten";
+          strength?: number;
+          last_reviewed?: string | null;
+          next_review?: string | null;
+          correct_count?: number;
+          incorrect_count?: number;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          word_id?: string;
+          status?: "unknown" | "learning" | "known" | "mastered" | "forgotten";
+          strength?: number;
+          last_reviewed?: string | null;
+          next_review?: string | null;
+          correct_count?: number;
+          incorrect_count?: number;
+          created_at?: string;
+          updated_at?: string;
+        };
       };
     };
   };

@@ -1,7 +1,18 @@
 // src/lib/audio/AudioCache.ts
-// NUR Lingo Audio Engine — Intelligent Audio Caching
+// NUR Lingo Audio Engine — Intelligent Audio Caching with IndexedDB Persistence
 
 import { AudioCacheStats } from "./AudioTypes";
+
+const DB_NAME = "nur_audio_cache";
+const DB_VERSION = 1;
+const STORE_NAME = "audio_blobs";
+const CACHE_DURATION_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
+
+interface CachedBlob {
+  url: string;
+  blob: Blob;
+  timestamp: number;
+}
 
 interface CacheEntry {
   audio: HTMLAudioElement;
@@ -9,6 +20,71 @@ interface CacheEntry {
   size: number;
   lastAccessed: number;
   hits: number;
+}
+
+// ─── IndexedDB Helper ───────────────────────────────────────────────────────────
+
+let dbPromise: Promise<IDBDatabase> | null = null;
+
+function getDB(): Promise<IDBDatabase> {
+  if (typeof indexedDB === "undefined") {
+    return Promise.reject(new Error("IndexedDB not available"));
+  }
+  if (dbPromise) return dbPromise;
+
+  dbPromise = new Promise((resolve, reject) => {
+    const request = indexedDB.open(DB_NAME, DB_VERSION);
+
+    request.onerror = () => reject(request.error);
+    request.onsuccess = () => resolve(request.result);
+    request.onupgradeneeded = (event) => {
+      const db = (event.target as IDBOpenDBRequest).result;
+      if (!db.objectStoreNames.contains(STORE_NAME)) {
+        db.createObjectStore(STORE_NAME, { keyPath: "url" });
+      }
+    };
+  });
+
+  return dbPromise;
+}
+
+async function getFromIndexedDB(url: string): Promise<Blob | null> {
+  try {
+    const db = await getDB();
+    return new Promise((resolve, reject) => {
+      const transaction = db.transaction(STORE_NAME, "readonly");
+      const store = transaction.objectStore(STORE_NAME);
+      const request = store.get(url);
+
+      request.onsuccess = () => {
+        const result = request.result as CachedBlob | undefined;
+        if (result && Date.now() - result.timestamp <= CACHE_DURATION_MS) {
+          resolve(result.blob);
+        } else {
+          resolve(null);
+        }
+      };
+      request.onerror = () => reject(request.error);
+    });
+  } catch {
+    return null;
+  }
+}
+
+async function storeInIndexedDB(url: string, blob: Blob): Promise<void> {
+  try {
+    const db = await getDB();
+    return new Promise((resolve, reject) => {
+      const transaction = db.transaction(STORE_NAME, "readwrite");
+      const store = transaction.objectStore(STORE_NAME);
+      const request = store.put({ url, blob, timestamp: Date.now() });
+
+      request.onsuccess = () => resolve();
+      request.onerror = () => reject(request.error);
+    });
+  } catch {
+    // Fail silently
+  }
 }
 
 /**
@@ -72,10 +148,10 @@ export class AudioCache {
   }
 
   /**
-   * Get or load audio with deduplication
+   * Get or load audio with deduplication and IndexedDB persistence
    */
   async getOrLoad(url: string, signal?: AbortSignal): Promise<HTMLAudioElement> {
-    // Check cache first
+    // Check memory cache first
     const cached = this.get(url);
     if (cached) {
       return cached;
@@ -87,7 +163,7 @@ export class AudioCache {
     }
 
     // Start loading
-    const promise = this.loadAudio(url, signal);
+    const promise = this.loadAudioWithPersistence(url, signal);
     this.loading.set(url, promise);
 
     try {
@@ -100,7 +176,37 @@ export class AudioCache {
   }
 
   /**
-   * Load audio element
+   * Load audio element with IndexedDB persistence
+   */
+  private async loadAudioWithPersistence(url: string, signal?: AbortSignal): Promise<HTMLAudioElement> {
+    // Try IndexedDB first
+    const cachedBlob = await getFromIndexedDB(url);
+    if (cachedBlob) {
+      const blobUrl = URL.createObjectURL(cachedBlob);
+      const audio = new Audio(blobUrl);
+      audio.preload = "auto";
+      return audio;
+    }
+
+    // Fetch from network
+    const response = await fetch(url, { signal });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${url}`);
+    }
+
+    const blob = await response.blob();
+    const blobUrl = URL.createObjectURL(blob);
+
+    // Store in IndexedDB for offline use
+    storeInIndexedDB(url, blob).catch(() => {});
+
+    const audio = new Audio(blobUrl);
+    audio.preload = "auto";
+    return audio;
+  }
+
+  /**
+   * Load audio element (legacy method for direct URLs)
    */
   private async loadAudio(url: string, signal?: AbortSignal): Promise<HTMLAudioElement> {
     return new Promise((resolve, reject) => {
@@ -285,6 +391,20 @@ export class AudioCache {
    */
   get size(): number {
     return this.cache.size;
+  }
+
+  /**
+   * Clear persistent IndexedDB cache
+   */
+  async clearPersistent(): Promise<void> {
+    try {
+      const db = await getDB();
+      const transaction = db.transaction(STORE_NAME, "readwrite");
+      const store = transaction.objectStore(STORE_NAME);
+      store.clear();
+    } catch {
+      // Ignore errors
+    }
   }
 }
 

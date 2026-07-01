@@ -9,6 +9,7 @@ export default function BottomNav() {
   const navItems = [
     { href: "/", label: "Սկիզբ", icon: "🏠" },
     { href: "/world", label: "Աշխարհ", icon: "🌍" },
+    { href: "/review", label: "Կրկնույթ", icon: "🔄" },
     { href: "/dictionary", label: "Բառարան", icon: "📖" },
     { href: "/curriculum", label: "Դասացուցակ", icon: "📚" }
   ];

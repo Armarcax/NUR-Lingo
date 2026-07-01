@@ -1,6 +1,6 @@
 // src/lib/audio/audio-service.ts
 import { LanguageCode, AudioOptions, AudioProvider, AudioProviderType } from "./audio-types";
-import { audioCache } from "./audio-cache";
+import { audioCache } from "./AudioCache";
 
 // ─── MP3 Provider ──────────────────────────────────────────────────
 

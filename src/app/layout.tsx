@@ -1,14 +1,23 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 
 export const metadata: Metadata = {
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  themeColor: "#D90012",
+};
+
   metadataBase: new URL("https://nurlingo.app"),
   title: "NUR Lingo — Հայկական AI Լեզվի Հարթակ",
   description: "AI-native Armenian ↔ English language learning. Semantic understanding, HAYQ tokens, Նուռ mascot.",
   keywords: ["Armenian","հայերեն","language learning","AI","HAYQ","NLP","Armenia"],
   icons: { icon: "/logo.svg", apple: "/logo.svg" },
   openGraph: {
+  manifest: "/manifest.json",
     title: "NUR Lingo",
     description: "Սովորիր հայերեն AI-ի հետ — semantic understanding, HAYQ reward system",
     images: ["/logo.svg"],
