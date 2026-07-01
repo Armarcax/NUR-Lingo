@@ -1,0 +1,1965 @@
+[
+  {
+    "id": "000001",
+    "hy": "մեկ",
+    "en": "one",
+    "ru": "один",
+    "type": "vocab",
+    "original_id": "num_1",
+    "audio": {
+      "hy": "/audio/hy/000001.mp3",
+      "en": "/audio/en/000001.mp3",
+      "ru": "/audio/ru/000001.mp3"
+    }
+  },
+  {
+    "id": "000002",
+    "hy": "երկու",
+    "en": "two",
+    "ru": "два",
+    "type": "vocab",
+    "original_id": "num_2",
+    "audio": {
+      "hy": "/audio/hy/000002.mp3",
+      "en": "/audio/en/000002.mp3",
+      "ru": "/audio/ru/000002.mp3"
+    }
+  },
+  {
+    "id": "000003",
+    "hy": "երեք",
+    "en": "three",
+    "ru": "три",
+    "type": "vocab",
+    "original_id": "num_3",
+    "audio": {
+      "hy": "/audio/hy/000003.mp3",
+      "en": "/audio/en/000003.mp3",
+      "ru": "/audio/ru/000003.mp3"
+    }
+  },
+  {
+    "id": "000004",
+    "hy": "չորս",
+    "en": "four",
+    "ru": "четыре",
+    "type": "vocab",
+    "original_id": "num_4",
+    "audio": {
+      "hy": "/audio/hy/000004.mp3",
+      "en": "/audio/en/000004.mp3",
+      "ru": "/audio/ru/000004.mp3"
+    }
+  },
+  {
+    "id": "000005",
+    "hy": "հինգ",
+    "en": "five",
+    "ru": "пять",
+    "type": "vocab",
+    "original_id": "num_5",
+    "audio": {
+      "hy": "/audio/hy/000005.mp3",
+      "en": "/audio/en/000005.mp3",
+      "ru": "/audio/ru/000005.mp3"
+    }
+  },
+  {
+    "id": "000006",
+    "hy": "վեց",
+    "en": "six",
+    "ru": "шесть",
+    "type": "vocab",
+    "original_id": "num_6",
+    "audio": {
+      "hy": "/audio/hy/000006.mp3",
+      "en": "/audio/en/000006.mp3",
+      "ru": "/audio/ru/000006.mp3"
+    }
+  },
+  {
+    "id": "000007",
+    "hy": "յոթ",
+    "en": "seven",
+    "ru": "семь",
+    "type": "vocab",
+    "original_id": "num_7",
+    "audio": {
+      "hy": "/audio/hy/000007.mp3",
+      "en": "/audio/en/000007.mp3",
+      "ru": "/audio/ru/000007.mp3"
+    }
+  },
+  {
+    "id": "000008",
+    "hy": "ութ",
+    "en": "eight",
+    "ru": "восемь",
+    "type": "vocab",
+    "original_id": "num_8",
+    "audio": {
+      "hy": "/audio/hy/000008.mp3",
+      "en": "/audio/en/000008.mp3",
+      "ru": "/audio/ru/000008.mp3"
+    }
+  },
+  {
+    "id": "000009",
+    "hy": "ինը",
+    "en": "nine",
+    "ru": "девять",
+    "type": "vocab",
+    "original_id": "num_9",
+    "audio": {
+      "hy": "/audio/hy/000009.mp3",
+      "en": "/audio/en/000009.mp3",
+      "ru": "/audio/ru/000009.mp3"
+    }
+  },
+  {
+    "id": "000010",
+    "hy": "տասը",
+    "en": "ten",
+    "ru": "десять",
+    "type": "vocab",
+    "original_id": "num_10",
+    "audio": {
+      "hy": "/audio/hy/000010.mp3",
+      "en": "/audio/en/000010.mp3",
+      "ru": "/audio/ru/000010.mp3"
+    }
+  },
+  {
+    "id": "000011",
+    "hy": "բարև",
+    "en": "hello",
+    "ru": "привет",
+    "type": "vocab",
+    "original_id": "greet_hello",
+    "audio": {
+      "hy": "/audio/hy/000011.mp3",
+      "en": "/audio/en/000011.mp3",
+      "ru": "/audio/ru/000011.mp3"
+    }
+  },
+  {
+    "id": "000012",
+    "hy": "ողջույն",
+    "en": "hi",
+    "ru": "здравствуй",
+    "type": "vocab",
+    "original_id": "greet_hi",
+    "audio": {
+      "hy": "/audio/hy/000012.mp3",
+      "en": "/audio/en/000012.mp3",
+      "ru": "/audio/ru/000012.mp3"
+    }
+  },
+  {
+    "id": "000013",
+    "hy": "բարի լույս",
+    "en": "good morning",
+    "ru": "доброе утро",
+    "type": "vocab",
+    "original_id": "greet_morning",
+    "audio": {
+      "hy": "/audio/hy/000013.mp3",
+      "en": "/audio/en/000013.mp3",
+      "ru": "/audio/ru/000013.mp3"
+    }
+  },
+  {
+    "id": "000014",
+    "hy": "բարի օր",
+    "en": "good day",
+    "ru": "добрый день",
+    "type": "vocab",
+    "original_id": "greet_day",
+    "audio": {
+      "hy": "/audio/hy/000014.mp3",
+      "en": "/audio/en/000014.mp3",
+      "ru": "/audio/ru/000014.mp3"
+    }
+  },
+  {
+    "id": "000015",
+    "hy": "բարի երեկո",
+    "en": "good evening",
+    "ru": "добрый вечер",
+    "type": "vocab",
+    "original_id": "greet_evening",
+    "audio": {
+      "hy": "/audio/hy/000015.mp3",
+      "en": "/audio/en/000015.mp3",
+      "ru": "/audio/ru/000015.mp3"
+    }
+  },
+  {
+    "id": "000016",
+    "hy": "բարի գիշեր",
+    "en": "good night",
+    "ru": "спокойной ночи",
+    "type": "vocab",
+    "original_id": "greet_night",
+    "audio": {
+      "hy": "/audio/hy/000016.mp3",
+      "en": "/audio/en/000016.mp3",
+      "ru": "/audio/ru/000016.mp3"
+    }
+  },
+  {
+    "id": "000017",
+    "hy": "ցտեսություն",
+    "en": "goodbye",
+    "ru": "до свидания",
+    "type": "vocab",
+    "original_id": "greet_bye",
+    "audio": {
+      "hy": "/audio/hy/000017.mp3",
+      "en": "/audio/en/000017.mp3",
+      "ru": "/audio/ru/000017.mp3"
+    }
+  },
+  {
+    "id": "000018",
+    "hy": "կտեսնվենք",
+    "en": "see you",
+    "ru": "увидимся",
+    "type": "vocab",
+    "original_id": "greet_seeyou",
+    "audio": {
+      "hy": "/audio/hy/000018.mp3",
+      "en": "/audio/en/000018.mp3",
+      "ru": "/audio/ru/000018.mp3"
+    }
+  },
+  {
+    "id": "000019",
+    "hy": "բարի գալուստ",
+    "en": "welcome",
+    "ru": "добро пожаловать",
+    "type": "vocab",
+    "original_id": "greet_welcome",
+    "audio": {
+      "hy": "/audio/hy/000019.mp3",
+      "en": "/audio/en/000019.mp3",
+      "ru": "/audio/ru/000019.mp3"
+    }
+  },
+  {
+    "id": "000020",
+    "hy": "հաճելի է",
+    "en": "nice",
+    "ru": "приятно",
+    "type": "vocab",
+    "original_id": "greet_pleasure",
+    "audio": {
+      "hy": "/audio/hy/000020.mp3",
+      "en": "/audio/en/000020.mp3",
+      "ru": "/audio/ru/000020.mp3"
+    }
+  },
+  {
+    "id": "000021",
+    "hy": "ծանոթանալ",
+    "en": "to meet",
+    "ru": "познакомиться",
+    "type": "vocab",
+    "original_id": "greet_meet",
+    "audio": {
+      "hy": "/audio/hy/000021.mp3",
+      "en": "/audio/en/000021.mp3",
+      "ru": "/audio/ru/000021.mp3"
+    }
+  },
+  {
+    "id": "000022",
+    "hy": "անուն",
+    "en": "name",
+    "ru": "имя",
+    "type": "vocab",
+    "original_id": "greet_name",
+    "audio": {
+      "hy": "/audio/hy/000022.mp3",
+      "en": "/audio/en/000022.mp3",
+      "ru": "/audio/ru/000022.mp3"
+    }
+  },
+  {
+    "id": "000023",
+    "hy": "ընկեր",
+    "en": "friend",
+    "ru": "друг",
+    "type": "vocab",
+    "original_id": "greet_friend",
+    "audio": {
+      "hy": "/audio/hy/000023.mp3",
+      "en": "/audio/en/000023.mp3",
+      "ru": "/audio/ru/000023.mp3"
+    }
+  },
+  {
+    "id": "000024",
+    "hy": "պարոն",
+    "en": "mister",
+    "ru": "господин",
+    "type": "vocab",
+    "original_id": "greet_mr",
+    "audio": {
+      "hy": "/audio/hy/000024.mp3",
+      "en": "/audio/en/000024.mp3",
+      "ru": "/audio/ru/000024.mp3"
+    }
+  },
+  {
+    "id": "000025",
+    "hy": "տիկին",
+    "en": "missus",
+    "ru": "госпожа",
+    "type": "vocab",
+    "original_id": "greet_mrs",
+    "audio": {
+      "hy": "/audio/hy/000025.mp3",
+      "en": "/audio/en/000025.mp3",
+      "ru": "/audio/ru/000025.mp3"
+    }
+  },
+  {
+    "id": "000026",
+    "hy": "շնորհակալություն",
+    "en": "thank you",
+    "ru": "спасибо",
+    "type": "vocab",
+    "original_id": "greet_thanks",
+    "audio": {
+      "hy": "/audio/hy/000026.mp3",
+      "en": "/audio/en/000026.mp3",
+      "ru": "/audio/ru/000026.mp3"
+    }
+  },
+  {
+    "id": "000027",
+    "hy": "խնդրեմ",
+    "en": "please",
+    "ru": "пожалуйста",
+    "type": "vocab",
+    "original_id": "greet_please",
+    "audio": {
+      "hy": "/audio/hy/000027.mp3",
+      "en": "/audio/en/000027.mp3",
+      "ru": "/audio/ru/000027.mp3"
+    }
+  },
+  {
+    "id": "000028",
+    "hy": "ներեցեք",
+    "en": "sorry",
+    "ru": "извините",
+    "type": "vocab",
+    "original_id": "greet_sorry",
+    "audio": {
+      "hy": "/audio/hy/000028.mp3",
+      "en": "/audio/en/000028.mp3",
+      "ru": "/audio/ru/000028.mp3"
+    }
+  },
+  {
+    "id": "000029",
+    "hy": "այո",
+    "en": "yes",
+    "ru": "да",
+    "type": "vocab",
+    "original_id": "greet_yes",
+    "audio": {
+      "hy": "/audio/hy/000029.mp3",
+      "en": "/audio/en/000029.mp3",
+      "ru": "/audio/ru/000029.mp3"
+    }
+  },
+  {
+    "id": "000030",
+    "hy": "ոչ",
+    "en": "no",
+    "ru": "нет",
+    "type": "vocab",
+    "original_id": "greet_no",
+    "audio": {
+      "hy": "/audio/hy/000030.mp3",
+      "en": "/audio/en/000030.mp3",
+      "ru": "/audio/ru/000030.mp3"
+    }
+  },
+  {
+    "id": "000031",
+    "hy": "ինչպես",
+    "en": "how",
+    "ru": "как",
+    "type": "vocab",
+    "original_id": "greet_how",
+    "audio": {
+      "hy": "/audio/hy/000031.mp3",
+      "en": "/audio/en/000031.mp3",
+      "ru": "/audio/ru/000031.mp3"
+    }
+  },
+  {
+    "id": "000032",
+    "hy": "լավ",
+    "en": "good",
+    "ru": "хорошо",
+    "type": "vocab",
+    "original_id": "greet_good",
+    "audio": {
+      "hy": "/audio/hy/000032.mp3",
+      "en": "/audio/en/000032.mp3",
+      "ru": "/audio/ru/000032.mp3"
+    }
+  },
+  {
+    "id": "000033",
+    "hy": "լավ եմ",
+    "en": "fine",
+    "ru": "нормально",
+    "type": "vocab",
+    "original_id": "greet_fine",
+    "audio": {
+      "hy": "/audio/hy/000033.mp3",
+      "en": "/audio/en/000033.mp3",
+      "ru": "/audio/ru/000033.mp3"
+    }
+  },
+  {
+    "id": "000034",
+    "hy": "վատ",
+    "en": "bad",
+    "ru": "плохо",
+    "type": "vocab",
+    "original_id": "greet_bad",
+    "audio": {
+      "hy": "/audio/hy/000034.mp3",
+      "en": "/audio/en/000034.mp3",
+      "ru": "/audio/ru/000034.mp3"
+    }
+  },
+  {
+    "id": "000035",
+    "hy": "լավ",
+    "en": "okay",
+    "ru": "ладно",
+    "type": "vocab",
+    "original_id": "greet_okay",
+    "audio": {
+      "hy": "/audio/hy/000035.mp3",
+      "en": "/audio/en/000035.mp3",
+      "ru": "/audio/ru/000035.mp3"
+    }
+  },
+  {
+    "id": "000036",
+    "hy": "Բարև, ինչպե՞ս ես։",
+    "en": "Hello, how are you?",
+    "ru": "Привет, как дела?",
+    "type": "phrase",
+    "original_id": "ph_w1l1_1",
+    "audio": {
+      "hy": "/audio/hy/000036.mp3",
+      "en": "/audio/en/000036.mp3",
+      "ru": "/audio/ru/000036.mp3"
+    }
+  },
+  {
+    "id": "000037",
+    "hy": "Շատ լավ, շնորհակալություն։",
+    "en": "Very well, thank you.",
+    "ru": "Очень хорошо, спасибо.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_2",
+    "audio": {
+      "hy": "/audio/hy/000037.mp3",
+      "en": "/audio/en/000037.mp3",
+      "ru": "/audio/ru/000037.mp3"
+    }
+  },
+  {
+    "id": "000038",
+    "hy": "Ինչպե՞ս է քո անունը։",
+    "en": "What is your name?",
+    "ru": "Как тебя зовут?",
+    "type": "phrase",
+    "original_id": "ph_w1l1_3",
+    "audio": {
+      "hy": "/audio/hy/000038.mp3",
+      "en": "/audio/en/000038.mp3",
+      "ru": "/audio/ru/000038.mp3"
+    }
+  },
+  {
+    "id": "000039",
+    "hy": "Իմ անունը Արամ է։",
+    "en": "My name is Aram.",
+    "ru": "Меня зовут Арам.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_4",
+    "audio": {
+      "hy": "/audio/hy/000039.mp3",
+      "en": "/audio/en/000039.mp3",
+      "ru": "/audio/ru/000039.mp3"
+    }
+  },
+  {
+    "id": "000040",
+    "hy": "Հաճելի է ծանոթանալ։",
+    "en": "Nice to meet you.",
+    "ru": "Приятно познакомиться.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_5",
+    "audio": {
+      "hy": "/audio/hy/000040.mp3",
+      "en": "/audio/en/000040.mp3",
+      "ru": "/audio/ru/000040.mp3"
+    }
+  },
+  {
+    "id": "000041",
+    "hy": "Ինձ նույնպես։",
+    "en": "You too.",
+    "ru": "Мне тоже.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_6",
+    "audio": {
+      "hy": "/audio/hy/000041.mp3",
+      "en": "/audio/en/000041.mp3",
+      "ru": "/audio/ru/000041.mp3"
+    }
+  },
+  {
+    "id": "000042",
+    "hy": "Բարի լույս։",
+    "en": "Good morning.",
+    "ru": "Доброе утро.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_7",
+    "audio": {
+      "hy": "/audio/hy/000042.mp3",
+      "en": "/audio/en/000042.mp3",
+      "ru": "/audio/ru/000042.mp3"
+    }
+  },
+  {
+    "id": "000043",
+    "hy": "Բարի երեկո։",
+    "en": "Good evening.",
+    "ru": "Добрый вечер.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_8",
+    "audio": {
+      "hy": "/audio/hy/000043.mp3",
+      "en": "/audio/en/000043.mp3",
+      "ru": "/audio/ru/000043.mp3"
+    }
+  },
+  {
+    "id": "000044",
+    "hy": "Ցտեսություն։",
+    "en": "Goodbye.",
+    "ru": "До свидания.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_9",
+    "audio": {
+      "hy": "/audio/hy/000044.mp3",
+      "en": "/audio/en/000044.mp3",
+      "ru": "/audio/ru/000044.mp3"
+    }
+  },
+  {
+    "id": "000045",
+    "hy": "Կտեսնվենք վաղը։",
+    "en": "See you tomorrow.",
+    "ru": "Увидимся завтра.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_10",
+    "audio": {
+      "hy": "/audio/hy/000045.mp3",
+      "en": "/audio/en/000045.mp3",
+      "ru": "/audio/ru/000045.mp3"
+    }
+  },
+  {
+    "id": "000046",
+    "hy": "Շնորհակալություն շատ։",
+    "en": "Thank you very much.",
+    "ru": "Большое спасибо.",
+    "type": "phrase",
+    "original_id": "ph_w1l1_11",
+    "audio": {
+      "hy": "/audio/hy/000046.mp3",
+      "en": "/audio/en/000046.mp3",
+      "ru": "/audio/ru/000046.mp3"
+    }
+  },
+  {
+    "id": "000047",
+    "hy": "Բարև։ Ինչպե՞ս ես։",
+    "en": "Hello! How are you?",
+    "ru": "Привет! Как дела?",
+    "type": "dialogue",
+    "original_id": "nurik_117",
+    "audio": {
+      "hy": "/audio/hy/000047.mp3",
+      "en": "/audio/en/000047.mp3",
+      "ru": "/audio/ru/000047.mp3"
+    }
+  },
+  {
+    "id": "000048",
+    "hy": "Իմ անունը Նուրիկն է։ Իսկ քոնը՞։",
+    "en": "My name is Nurik. And yours?",
+    "ru": "Меня зовут Нурик. А тебя?",
+    "type": "dialogue",
+    "original_id": "nurik_118",
+    "audio": {
+      "hy": "/audio/hy/000048.mp3",
+      "en": "/audio/en/000048.mp3",
+      "ru": "/audio/ru/000048.mp3"
+    }
+  },
+  {
+    "id": "000049",
+    "hy": "Իմ անունը …",
+    "en": "My name is …",
+    "ru": "Меня зовут …",
+    "type": "dialogue",
+    "original_id": "user_119",
+    "audio": {
+      "hy": "/audio/hy/000049.mp3",
+      "en": "/audio/en/000049.mp3",
+      "ru": "/audio/ru/000049.mp3"
+    }
+  },
+  {
+    "id": "000050",
+    "hy": "Հաճելի է ծանոթանալ։",
+    "en": "Nice to meet you.",
+    "ru": "Приятно познакомиться.",
+    "type": "dialogue",
+    "original_id": "nurik_120",
+    "audio": {
+      "hy": "/audio/hy/000050.mp3",
+      "en": "/audio/en/000050.mp3",
+      "ru": "/audio/ru/000050.mp3"
+    }
+  },
+  {
+    "id": "000051",
+    "hy": "Բարի լույս։",
+    "en": "Good morning.",
+    "ru": "Доброе утро.",
+    "type": "dialogue",
+    "original_id": "nurik_121",
+    "audio": {
+      "hy": "/audio/hy/000051.mp3",
+      "en": "/audio/en/000051.mp3",
+      "ru": "/audio/ru/000051.mp3"
+    }
+  },
+  {
+    "id": "000052",
+    "hy": "Բարի լույս, Նուրիկ։",
+    "en": "Good morning, Nurik.",
+    "ru": "Доброе утро, Нурик.",
+    "type": "dialogue",
+    "original_id": "user_122",
+    "audio": {
+      "hy": "/audio/hy/000052.mp3",
+      "en": "/audio/en/000052.mp3",
+      "ru": "/audio/ru/000052.mp3"
+    }
+  },
+  {
+    "id": "000053",
+    "hy": "Ինչպե՞ս է քո օրը։",
+    "en": "How is your day?",
+    "ru": "Как твой день?",
+    "type": "dialogue",
+    "original_id": "nurik_123",
+    "audio": {
+      "hy": "/audio/hy/000053.mp3",
+      "en": "/audio/en/000053.mp3",
+      "ru": "/audio/ru/000053.mp3"
+    }
+  },
+  {
+    "id": "000054",
+    "hy": "Շատ լավ, շնորհակալություն։",
+    "en": "Very good, thank you.",
+    "ru": "Очень хорошо, спасибо.",
+    "type": "dialogue",
+    "original_id": "user_124",
+    "audio": {
+      "hy": "/audio/hy/000054.mp3",
+      "en": "/audio/en/000054.mp3",
+      "ru": "/audio/ru/000054.mp3"
+    }
+  },
+  {
+    "id": "000055",
+    "hy": "Ես պետք է գնամ։",
+    "en": "I have to go.",
+    "ru": "Мне пора идти.",
+    "type": "dialogue",
+    "original_id": "nurik_125",
+    "audio": {
+      "hy": "/audio/hy/000055.mp3",
+      "en": "/audio/en/000055.mp3",
+      "ru": "/audio/ru/000055.mp3"
+    }
+  },
+  {
+    "id": "000056",
+    "hy": "Լավ, ցտեսություն։",
+    "en": "Okay, goodbye.",
+    "ru": "Хорошо, до свидания.",
+    "type": "dialogue",
+    "original_id": "user_126",
+    "audio": {
+      "hy": "/audio/hy/000056.mp3",
+      "en": "/audio/en/000056.mp3",
+      "ru": "/audio/ru/000056.mp3"
+    }
+  },
+  {
+    "id": "000057",
+    "hy": "Կտեսնվենք վաղը։",
+    "en": "See you tomorrow.",
+    "ru": "Увидимся завтра.",
+    "type": "dialogue",
+    "original_id": "nurik_127",
+    "audio": {
+      "hy": "/audio/hy/000057.mp3",
+      "en": "/audio/en/000057.mp3",
+      "ru": "/audio/ru/000057.mp3"
+    }
+  },
+  {
+    "id": "000058",
+    "hy": "Բարի գիշեր։",
+    "en": "Good night.",
+    "ru": "Спокойной ночи.",
+    "type": "dialogue",
+    "original_id": "user_128",
+    "audio": {
+      "hy": "/audio/hy/000058.mp3",
+      "en": "/audio/en/000058.mp3",
+      "ru": "/audio/ru/000058.mp3"
+    }
+  },
+  {
+    "id": "000059",
+    "hy": "պաշտոնական",
+    "en": "formal",
+    "ru": "формальный",
+    "type": "vocab",
+    "original_id": "g_formal",
+    "audio": {
+      "hy": "/audio/hy/000059.mp3",
+      "en": "/audio/en/000059.mp3",
+      "ru": "/audio/ru/000059.mp3"
+    }
+  },
+  {
+    "id": "000060",
+    "hy": "ոչ պաշտոնական",
+    "en": "informal",
+    "ru": "неформальный",
+    "type": "vocab",
+    "original_id": "g_informal",
+    "audio": {
+      "hy": "/audio/hy/000060.mp3",
+      "en": "/audio/en/000060.mp3",
+      "ru": "/audio/ru/000060.mp3"
+    }
+  },
+  {
+    "id": "000061",
+    "hy": "ձեռքսեղմում",
+    "en": "handshake",
+    "ru": "рукопожатие",
+    "type": "vocab",
+    "original_id": "g_handshake",
+    "audio": {
+      "hy": "/audio/hy/000061.mp3",
+      "en": "/audio/en/000061.mp3",
+      "ru": "/audio/ru/000061.mp3"
+    }
+  },
+  {
+    "id": "000062",
+    "hy": "գրկախառնություն",
+    "en": "hug",
+    "ru": "объятие",
+    "type": "vocab",
+    "original_id": "g_hug",
+    "audio": {
+      "hy": "/audio/hy/000062.mp3",
+      "en": "/audio/en/000062.mp3",
+      "ru": "/audio/ru/000062.mp3"
+    }
+  },
+  {
+    "id": "000063",
+    "hy": "համբույր",
+    "en": "kiss",
+    "ru": "поцелуй",
+    "type": "vocab",
+    "original_id": "g_kiss",
+    "audio": {
+      "hy": "/audio/hy/000063.mp3",
+      "en": "/audio/en/000063.mp3",
+      "ru": "/audio/ru/000063.mp3"
+    }
+  },
+  {
+    "id": "000064",
+    "hy": "ձեռքով անել",
+    "en": "to wave",
+    "ru": "махать",
+    "type": "vocab",
+    "original_id": "g_wave",
+    "audio": {
+      "hy": "/audio/hy/000064.mp3",
+      "en": "/audio/en/000064.mp3",
+      "ru": "/audio/ru/000064.mp3"
+    }
+  },
+  {
+    "id": "000065",
+    "hy": "ժպիտ",
+    "en": "smile",
+    "ru": "улыбка",
+    "type": "vocab",
+    "original_id": "g_smile",
+    "audio": {
+      "hy": "/audio/hy/000065.mp3",
+      "en": "/audio/en/000065.mp3",
+      "ru": "/audio/ru/000065.mp3"
+    }
+  },
+  {
+    "id": "000066",
+    "hy": "քաղաքավարի",
+    "en": "polite",
+    "ru": "вежливый",
+    "type": "vocab",
+    "original_id": "g_polite",
+    "audio": {
+      "hy": "/audio/hy/000066.mp3",
+      "en": "/audio/en/000066.mp3",
+      "ru": "/audio/ru/000066.mp3"
+    }
+  },
+  {
+    "id": "000067",
+    "hy": "կոպիտ",
+    "en": "rude",
+    "ru": "грубый",
+    "type": "vocab",
+    "original_id": "g_rude",
+    "audio": {
+      "hy": "/audio/hy/000067.mp3",
+      "en": "/audio/en/000067.mp3",
+      "ru": "/audio/ru/000067.mp3"
+    }
+  },
+  {
+    "id": "000068",
+    "hy": "հարգանք",
+    "en": "respect",
+    "ru": "уважение",
+    "type": "vocab",
+    "original_id": "g_respect",
+    "audio": {
+      "hy": "/audio/hy/000068.mp3",
+      "en": "/audio/en/000068.mp3",
+      "ru": "/audio/ru/000068.mp3"
+    }
+  },
+  {
+    "id": "000069",
+    "hy": "մեծահասակ",
+    "en": "elder",
+    "ru": "старший",
+    "type": "vocab",
+    "original_id": "g_elder",
+    "audio": {
+      "hy": "/audio/hy/000069.mp3",
+      "en": "/audio/en/000069.mp3",
+      "ru": "/audio/ru/000069.mp3"
+    }
+  },
+  {
+    "id": "000070",
+    "hy": "երիտասարդ",
+    "en": "young",
+    "ru": "молодой",
+    "type": "vocab",
+    "original_id": "g_young",
+    "audio": {
+      "hy": "/audio/hy/000070.mp3",
+      "en": "/audio/en/000070.mp3",
+      "ru": "/audio/ru/000070.mp3"
+    }
+  },
+  {
+    "id": "000071",
+    "hy": "անծանոթ",
+    "en": "stranger",
+    "ru": "незнакомец",
+    "type": "vocab",
+    "original_id": "g_stranger",
+    "audio": {
+      "hy": "/audio/hy/000071.mp3",
+      "en": "/audio/en/000071.mp3",
+      "ru": "/audio/ru/000071.mp3"
+    }
+  },
+  {
+    "id": "000072",
+    "hy": "հարևան",
+    "en": "neighbor",
+    "ru": "сосед",
+    "type": "vocab",
+    "original_id": "g_neighbor",
+    "audio": {
+      "hy": "/audio/hy/000072.mp3",
+      "en": "/audio/en/000072.mp3",
+      "ru": "/audio/ru/000072.mp3"
+    }
+  },
+  {
+    "id": "000073",
+    "hy": "գործընկեր",
+    "en": "colleague",
+    "ru": "коллега",
+    "type": "vocab",
+    "original_id": "g_colleague",
+    "audio": {
+      "hy": "/audio/hy/000073.mp3",
+      "en": "/audio/en/000073.mp3",
+      "ru": "/audio/ru/000073.mp3"
+    }
+  },
+  {
+    "id": "000074",
+    "hy": "ղեկավար",
+    "en": "boss",
+    "ru": "начальник",
+    "type": "vocab",
+    "original_id": "g_boss",
+    "audio": {
+      "hy": "/audio/hy/000074.mp3",
+      "en": "/audio/en/000074.mp3",
+      "ru": "/audio/ru/000074.mp3"
+    }
+  },
+  {
+    "id": "000075",
+    "hy": "հյուր",
+    "en": "guest",
+    "ru": "гость",
+    "type": "vocab",
+    "original_id": "g_guest",
+    "audio": {
+      "hy": "/audio/hy/000075.mp3",
+      "en": "/audio/en/000075.mp3",
+      "ru": "/audio/ru/000075.mp3"
+    }
+  },
+  {
+    "id": "000076",
+    "hy": "տանտեր",
+    "en": "host",
+    "ru": "хозяин",
+    "type": "vocab",
+    "original_id": "g_host",
+    "audio": {
+      "hy": "/audio/hy/000076.mp3",
+      "en": "/audio/en/000076.mp3",
+      "ru": "/audio/ru/000076.mp3"
+    }
+  },
+  {
+    "id": "000077",
+    "hy": "նորից",
+    "en": "again",
+    "ru": "снова",
+    "type": "vocab",
+    "original_id": "g_again",
+    "audio": {
+      "hy": "/audio/hy/000077.mp3",
+      "en": "/audio/en/000077.mp3",
+      "ru": "/audio/ru/000077.mp3"
+    }
+  },
+  {
+    "id": "000078",
+    "hy": "վաղուց",
+    "en": "long time",
+    "ru": "давно",
+    "type": "vocab",
+    "original_id": "g_long_time",
+    "audio": {
+      "hy": "/audio/hy/000078.mp3",
+      "en": "/audio/en/000078.mp3",
+      "ru": "/audio/ru/000078.mp3"
+    }
+  },
+  {
+    "id": "000079",
+    "hy": "ինչպես ես",
+    "en": "how are you",
+    "ru": "как ты",
+    "type": "vocab",
+    "original_id": "g_how_are",
+    "audio": {
+      "hy": "/audio/hy/000079.mp3",
+      "en": "/audio/en/000079.mp3",
+      "ru": "/audio/ru/000079.mp3"
+    }
+  },
+  {
+    "id": "000080",
+    "hy": "հոգ տար",
+    "en": "take care",
+    "ru": "береги себя",
+    "type": "vocab",
+    "original_id": "g_take_care",
+    "audio": {
+      "hy": "/audio/hy/000080.mp3",
+      "en": "/audio/en/000080.mp3",
+      "ru": "/audio/ru/000080.mp3"
+    }
+  },
+  {
+    "id": "000081",
+    "hy": "բարի օր անցկացրու",
+    "en": "have a good day",
+    "ru": "хорошего дня",
+    "type": "vocab",
+    "original_id": "g_have_good",
+    "audio": {
+      "hy": "/audio/hy/000081.mp3",
+      "en": "/audio/en/000081.mp3",
+      "ru": "/audio/ru/000081.mp3"
+    }
+  },
+  {
+    "id": "000082",
+    "hy": "Աստված հետդ",
+    "en": "God be with you",
+    "ru": "с Богом",
+    "type": "vocab",
+    "original_id": "g_god_be",
+    "audio": {
+      "hy": "/audio/hy/000082.mp3",
+      "en": "/audio/en/000082.mp3",
+      "ru": "/audio/ru/000082.mp3"
+    }
+  },
+  {
+    "id": "000083",
+    "hy": "Շատ վաղուց չենք տեսել իրար։",
+    "en": "Long time no see.",
+    "ru": "Давно не виделись.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_1",
+    "audio": {
+      "hy": "/audio/hy/000083.mp3",
+      "en": "/audio/en/000083.mp3",
+      "ru": "/audio/ru/000083.mp3"
+    }
+  },
+  {
+    "id": "000084",
+    "hy": "Ամեն ինչ լավ է։",
+    "en": "Everything is good.",
+    "ru": "Всё хорошо.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_3",
+    "audio": {
+      "hy": "/audio/hy/000084.mp3",
+      "en": "/audio/en/000084.mp3",
+      "ru": "/audio/ru/000084.mp3"
+    }
+  },
+  {
+    "id": "000085",
+    "hy": "Բարի օր անցկացրու։",
+    "en": "Have a good day.",
+    "ru": "Хорошего дня.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_5",
+    "audio": {
+      "hy": "/audio/hy/000085.mp3",
+      "en": "/audio/en/000085.mp3",
+      "ru": "/audio/ru/000085.mp3"
+    }
+  },
+  {
+    "id": "000086",
+    "hy": "Հոգ տար քեզ։",
+    "en": "Take care of yourself.",
+    "ru": "Береги себя.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_6",
+    "audio": {
+      "hy": "/audio/hy/000086.mp3",
+      "en": "/audio/en/000086.mp3",
+      "ru": "/audio/ru/000086.mp3"
+    }
+  },
+  {
+    "id": "000087",
+    "hy": "Ողջունի՛ր ընտանիքին։",
+    "en": "Greet your family.",
+    "ru": "Передавай привет семье.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_7",
+    "audio": {
+      "hy": "/audio/hy/000087.mp3",
+      "en": "/audio/en/000087.mp3",
+      "ru": "/audio/ru/000087.mp3"
+    }
+  },
+  {
+    "id": "000088",
+    "hy": "Շնորհակալ եմ, դու էլ։",
+    "en": "Thanks, you too.",
+    "ru": "Спасибо, ты тоже.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_8",
+    "audio": {
+      "hy": "/audio/hy/000088.mp3",
+      "en": "/audio/en/000088.mp3",
+      "ru": "/audio/ru/000088.mp3"
+    }
+  },
+  {
+    "id": "000089",
+    "hy": "Մինչ հանդիպման։",
+    "en": "Until we meet.",
+    "ru": "До встречи.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_9",
+    "audio": {
+      "hy": "/audio/hy/000089.mp3",
+      "en": "/audio/en/000089.mp3",
+      "ru": "/audio/ru/000089.mp3"
+    }
+  },
+  {
+    "id": "000090",
+    "hy": "Շնորհակալ եմ այցի համար։",
+    "en": "Thanks for visiting.",
+    "ru": "Спасибо за визит.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_10",
+    "audio": {
+      "hy": "/audio/hy/000090.mp3",
+      "en": "/audio/en/000090.mp3",
+      "ru": "/audio/ru/000090.mp3"
+    }
+  },
+  {
+    "id": "000091",
+    "hy": "Բարի վերադարձ։",
+    "en": "Welcome back.",
+    "ru": "С возвращением.",
+    "type": "phrase",
+    "original_id": "ph_w1l2_11",
+    "audio": {
+      "hy": "/audio/hy/000091.mp3",
+      "en": "/audio/en/000091.mp3",
+      "ru": "/audio/ru/000091.mp3"
+    }
+  },
+  {
+    "id": "000092",
+    "hy": "Ինչպե՞ս է ընտանիքը։",
+    "en": "How is the family?",
+    "ru": "Как семья?",
+    "type": "phrase",
+    "original_id": "ph_w1l2_12",
+    "audio": {
+      "hy": "/audio/hy/000092.mp3",
+      "en": "/audio/en/000092.mp3",
+      "ru": "/audio/ru/000092.mp3"
+    }
+  },
+  {
+    "id": "000093",
+    "hy": "Շատ վաղուց չենք տեսել իրար։",
+    "en": "Long time no see!",
+    "ru": "Давно не виделись!",
+    "type": "dialogue",
+    "original_id": "nurik_129",
+    "audio": {
+      "hy": "/audio/hy/000093.mp3",
+      "en": "/audio/en/000093.mp3",
+      "ru": "/audio/ru/000093.mp3"
+    }
+  },
+  {
+    "id": "000094",
+    "hy": "Ամեն ինչ լավ է, շնորհակալություն։",
+    "en": "Everything is good, thanks.",
+    "ru": "Всё хорошо, спасибо.",
+    "type": "dialogue",
+    "original_id": "user_130",
+    "audio": {
+      "hy": "/audio/hy/000094.mp3",
+      "en": "/audio/en/000094.mp3",
+      "ru": "/audio/ru/000094.mp3"
+    }
+  },
+  {
+    "id": "000095",
+    "hy": "Բարի օր անցկացրու։",
+    "en": "Have a good day.",
+    "ru": "Хорошего дня.",
+    "type": "dialogue",
+    "original_id": "nurik_131",
+    "audio": {
+      "hy": "/audio/hy/000095.mp3",
+      "en": "/audio/en/000095.mp3",
+      "ru": "/audio/ru/000095.mp3"
+    }
+  },
+  {
+    "id": "000096",
+    "hy": "Շնորհակալ եմ, դու էլ։",
+    "en": "Thanks, you too.",
+    "ru": "Спасибо, ты тоже.",
+    "type": "dialogue",
+    "original_id": "user_132",
+    "audio": {
+      "hy": "/audio/hy/000096.mp3",
+      "en": "/audio/en/000096.mp3",
+      "ru": "/audio/ru/000096.mp3"
+    }
+  },
+  {
+    "id": "000097",
+    "hy": "Ողջունի՛ր ընտանիքին։",
+    "en": "Greet your family.",
+    "ru": "Передавай привет семье.",
+    "type": "dialogue",
+    "original_id": "nurik_133",
+    "audio": {
+      "hy": "/audio/hy/000097.mp3",
+      "en": "/audio/en/000097.mp3",
+      "ru": "/audio/ru/000097.mp3"
+    }
+  },
+  {
+    "id": "000098",
+    "hy": "Անպայման։",
+    "en": "Definitely.",
+    "ru": "Обязательно.",
+    "type": "dialogue",
+    "original_id": "user_134",
+    "audio": {
+      "hy": "/audio/hy/000098.mp3",
+      "en": "/audio/en/000098.mp3",
+      "ru": "/audio/ru/000098.mp3"
+    }
+  },
+  {
+    "id": "000099",
+    "hy": "Բարի վերադարձ։",
+    "en": "Welcome back.",
+    "ru": "С возвращением.",
+    "type": "dialogue",
+    "original_id": "nurik_135",
+    "audio": {
+      "hy": "/audio/hy/000099.mp3",
+      "en": "/audio/en/000099.mp3",
+      "ru": "/audio/ru/000099.mp3"
+    }
+  },
+  {
+    "id": "000100",
+    "hy": "Շնորհակալություն։",
+    "en": "Thank you.",
+    "ru": "Спасибо.",
+    "type": "dialogue",
+    "original_id": "user_136",
+    "audio": {
+      "hy": "/audio/hy/000100.mp3",
+      "en": "/audio/en/000100.mp3",
+      "ru": "/audio/ru/000100.mp3"
+    }
+  },
+  {
+    "id": "000101",
+    "hy": "Ինչպե՞ս ընտանիքը։",
+    "en": "How is the family?",
+    "ru": "Как семья?",
+    "type": "dialogue",
+    "original_id": "nurik_137",
+    "audio": {
+      "hy": "/audio/hy/000101.mp3",
+      "en": "/audio/en/000101.mp3",
+      "ru": "/audio/ru/000101.mp3"
+    }
+  },
+  {
+    "id": "000102",
+    "hy": "Բոլորը լավ են։",
+    "en": "Everyone is well.",
+    "ru": "Все хорошо.",
+    "type": "dialogue",
+    "original_id": "user_138",
+    "audio": {
+      "hy": "/audio/hy/000102.mp3",
+      "en": "/audio/en/000102.mp3",
+      "ru": "/audio/ru/000102.mp3"
+    }
+  },
+  {
+    "id": "000103",
+    "hy": "ես",
+    "en": "I",
+    "ru": "я",
+    "type": "vocab",
+    "original_id": "i_i",
+    "audio": {
+      "hy": "/audio/hy/000103.mp3",
+      "en": "/audio/en/000103.mp3",
+      "ru": "/audio/ru/000103.mp3"
+    }
+  },
+  {
+    "id": "000104",
+    "hy": "դու",
+    "en": "you",
+    "ru": "ты",
+    "type": "vocab",
+    "original_id": "i_you",
+    "audio": {
+      "hy": "/audio/hy/000104.mp3",
+      "en": "/audio/en/000104.mp3",
+      "ru": "/audio/ru/000104.mp3"
+    }
+  },
+  {
+    "id": "000105",
+    "hy": "նա",
+    "en": "he",
+    "ru": "он",
+    "type": "vocab",
+    "original_id": "i_he",
+    "audio": {
+      "hy": "/audio/hy/000105.mp3",
+      "en": "/audio/en/000105.mp3",
+      "ru": "/audio/ru/000105.mp3"
+    }
+  },
+  {
+    "id": "000106",
+    "hy": "նա",
+    "en": "she",
+    "ru": "она",
+    "type": "vocab",
+    "original_id": "i_she",
+    "audio": {
+      "hy": "/audio/hy/000106.mp3",
+      "en": "/audio/en/000106.mp3",
+      "ru": "/audio/ru/000106.mp3"
+    }
+  },
+  {
+    "id": "000107",
+    "hy": "մենք",
+    "en": "we",
+    "ru": "мы",
+    "type": "vocab",
+    "original_id": "i_we",
+    "audio": {
+      "hy": "/audio/hy/000107.mp3",
+      "en": "/audio/en/000107.mp3",
+      "ru": "/audio/ru/000107.mp3"
+    }
+  },
+  {
+    "id": "000108",
+    "hy": "նրանք",
+    "en": "they",
+    "ru": "они",
+    "type": "vocab",
+    "original_id": "i_they",
+    "audio": {
+      "hy": "/audio/hy/000108.mp3",
+      "en": "/audio/en/000108.mp3",
+      "ru": "/audio/ru/000108.mp3"
+    }
+  },
+  {
+    "id": "000109",
+    "hy": "իմ",
+    "en": "my",
+    "ru": "мой",
+    "type": "vocab",
+    "original_id": "i_my",
+    "audio": {
+      "hy": "/audio/hy/000109.mp3",
+      "en": "/audio/en/000109.mp3",
+      "ru": "/audio/ru/000109.mp3"
+    }
+  },
+  {
+    "id": "000110",
+    "hy": "քո",
+    "en": "your",
+    "ru": "твой",
+    "type": "vocab",
+    "original_id": "i_your",
+    "audio": {
+      "hy": "/audio/hy/000110.mp3",
+      "en": "/audio/en/000110.mp3",
+      "ru": "/audio/ru/000110.mp3"
+    }
+  },
+  {
+    "id": "000111",
+    "hy": "նրա",
+    "en": "his",
+    "ru": "его",
+    "type": "vocab",
+    "original_id": "i_his",
+    "audio": {
+      "hy": "/audio/hy/000111.mp3",
+      "en": "/audio/en/000111.mp3",
+      "ru": "/audio/ru/000111.mp3"
+    }
+  },
+  {
+    "id": "000112",
+    "hy": "նրա",
+    "en": "her",
+    "ru": "её",
+    "type": "vocab",
+    "original_id": "i_her",
+    "audio": {
+      "hy": "/audio/hy/000112.mp3",
+      "en": "/audio/en/000112.mp3",
+      "ru": "/audio/ru/000112.mp3"
+    }
+  },
+  {
+    "id": "000113",
+    "hy": "անուն",
+    "en": "name",
+    "ru": "имя",
+    "type": "vocab",
+    "original_id": "i_name",
+    "audio": {
+      "hy": "/audio/hy/000113.mp3",
+      "en": "/audio/en/000113.mp3",
+      "ru": "/audio/ru/000113.mp3"
+    }
+  },
+  {
+    "id": "000114",
+    "hy": "ազգանուն",
+    "en": "surname",
+    "ru": "фамилия",
+    "type": "vocab",
+    "original_id": "i_surname",
+    "audio": {
+      "hy": "/audio/hy/000114.mp3",
+      "en": "/audio/en/000114.mp3",
+      "ru": "/audio/ru/000114.mp3"
+    }
+  },
+  {
+    "id": "000115",
+    "hy": "լինել",
+    "en": "to be",
+    "ru": "быть",
+    "type": "vocab",
+    "original_id": "i_be",
+    "audio": {
+      "hy": "/audio/hy/000115.mp3",
+      "en": "/audio/en/000115.mp3",
+      "ru": "/audio/ru/000115.mp3"
+    }
+  },
+  {
+    "id": "000116",
+    "hy": "կոչվել",
+    "en": "to be called",
+    "ru": "называться",
+    "type": "vocab",
+    "original_id": "i_call",
+    "audio": {
+      "hy": "/audio/hy/000116.mp3",
+      "en": "/audio/en/000116.mp3",
+      "ru": "/audio/ru/000116.mp3"
+    }
+  },
+  {
+    "id": "000117",
+    "hy": "ներկայացնել",
+    "en": "to introduce",
+    "ru": "представить",
+    "type": "vocab",
+    "original_id": "i_introduce",
+    "audio": {
+      "hy": "/audio/hy/000117.mp3",
+      "en": "/audio/en/000117.mp3",
+      "ru": "/audio/ru/000117.mp3"
+    }
+  },
+  {
+    "id": "000118",
+    "hy": "սա",
+    "en": "this",
+    "ru": "это",
+    "type": "vocab",
+    "original_id": "i_this",
+    "audio": {
+      "hy": "/audio/hy/000118.mp3",
+      "en": "/audio/en/000118.mp3",
+      "ru": "/audio/ru/000118.mp3"
+    }
+  },
+  {
+    "id": "000119",
+    "hy": "դա",
+    "en": "that",
+    "ru": "то",
+    "type": "vocab",
+    "original_id": "i_that",
+    "audio": {
+      "hy": "/audio/hy/000119.mp3",
+      "en": "/audio/en/000119.mp3",
+      "ru": "/audio/ru/000119.mp3"
+    }
+  },
+  {
+    "id": "000120",
+    "hy": "մարդ",
+    "en": "person",
+    "ru": "человек",
+    "type": "vocab",
+    "original_id": "i_person",
+    "audio": {
+      "hy": "/audio/hy/000120.mp3",
+      "en": "/audio/en/000120.mp3",
+      "ru": "/audio/ru/000120.mp3"
+    }
+  },
+  {
+    "id": "000121",
+    "hy": "տղամարդ",
+    "en": "man",
+    "ru": "мужчина",
+    "type": "vocab",
+    "original_id": "i_man",
+    "audio": {
+      "hy": "/audio/hy/000121.mp3",
+      "en": "/audio/en/000121.mp3",
+      "ru": "/audio/ru/000121.mp3"
+    }
+  },
+  {
+    "id": "000122",
+    "hy": "կին",
+    "en": "woman",
+    "ru": "женщина",
+    "type": "vocab",
+    "original_id": "i_woman",
+    "audio": {
+      "hy": "/audio/hy/000122.mp3",
+      "en": "/audio/en/000122.mp3",
+      "ru": "/audio/ru/000122.mp3"
+    }
+  },
+  {
+    "id": "000123",
+    "hy": "տղա",
+    "en": "boy",
+    "ru": "мальчик",
+    "type": "vocab",
+    "original_id": "i_boy",
+    "audio": {
+      "hy": "/audio/hy/000123.mp3",
+      "en": "/audio/en/000123.mp3",
+      "ru": "/audio/ru/000123.mp3"
+    }
+  },
+  {
+    "id": "000124",
+    "hy": "աղջիկ",
+    "en": "girl",
+    "ru": "девочка",
+    "type": "vocab",
+    "original_id": "i_girl",
+    "audio": {
+      "hy": "/audio/hy/000124.mp3",
+      "en": "/audio/en/000124.mp3",
+      "ru": "/audio/ru/000124.mp3"
+    }
+  },
+  {
+    "id": "000125",
+    "hy": "երեխա",
+    "en": "child",
+    "ru": "ребёнок",
+    "type": "vocab",
+    "original_id": "i_child",
+    "audio": {
+      "hy": "/audio/hy/000125.mp3",
+      "en": "/audio/en/000125.mp3",
+      "ru": "/audio/ru/000125.mp3"
+    }
+  },
+  {
+    "id": "000126",
+    "hy": "ուսանող",
+    "en": "student",
+    "ru": "студент",
+    "type": "vocab",
+    "original_id": "i_student",
+    "audio": {
+      "hy": "/audio/hy/000126.mp3",
+      "en": "/audio/en/000126.mp3",
+      "ru": "/audio/ru/000126.mp3"
+    }
+  },
+  {
+    "id": "000127",
+    "hy": "ուսուցիչ",
+    "en": "teacher",
+    "ru": "учитель",
+    "type": "vocab",
+    "original_id": "i_teacher",
+    "audio": {
+      "hy": "/audio/hy/000127.mp3",
+      "en": "/audio/en/000127.mp3",
+      "ru": "/audio/ru/000127.mp3"
+    }
+  },
+  {
+    "id": "000128",
+    "hy": "Ես Արամ եմ։",
+    "en": "I am Aram.",
+    "ru": "Я — Арам.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_1",
+    "audio": {
+      "hy": "/audio/hy/000128.mp3",
+      "en": "/audio/en/000128.mp3",
+      "ru": "/audio/ru/000128.mp3"
+    }
+  },
+  {
+    "id": "000129",
+    "hy": "Սա իմ ընկերն է։",
+    "en": "This is my friend.",
+    "ru": "Это мой друг.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_2",
+    "audio": {
+      "hy": "/audio/hy/000129.mp3",
+      "en": "/audio/en/000129.mp3",
+      "ru": "/audio/ru/000129.mp3"
+    }
+  },
+  {
+    "id": "000130",
+    "hy": "Նրա անունը Անի է։",
+    "en": "Her name is Ani.",
+    "ru": "Её зовут Ани.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_3",
+    "audio": {
+      "hy": "/audio/hy/000130.mp3",
+      "en": "/audio/en/000130.mp3",
+      "ru": "/audio/ru/000130.mp3"
+    }
+  },
+  {
+    "id": "000131",
+    "hy": "Թույլ տուր ներկայացնեմ։",
+    "en": "Let me introduce.",
+    "ru": "Позволь представить.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_4",
+    "audio": {
+      "hy": "/audio/hy/000131.mp3",
+      "en": "/audio/en/000131.mp3",
+      "ru": "/audio/ru/000131.mp3"
+    }
+  },
+  {
+    "id": "000132",
+    "hy": "Ով ես դու։",
+    "en": "Who are you?",
+    "ru": "Кто ты?",
+    "type": "phrase",
+    "original_id": "ph_w1l3_5",
+    "audio": {
+      "hy": "/audio/hy/000132.mp3",
+      "en": "/audio/en/000132.mp3",
+      "ru": "/audio/ru/000132.mp3"
+    }
+  },
+  {
+    "id": "000133",
+    "hy": "Ես ուսանող եմ։",
+    "en": "I am a student.",
+    "ru": "Я студент.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_6",
+    "audio": {
+      "hy": "/audio/hy/000133.mp3",
+      "en": "/audio/en/000133.mp3",
+      "ru": "/audio/ru/000133.mp3"
+    }
+  },
+  {
+    "id": "000134",
+    "hy": "Իմ ազգանունը Պետրոսյան է։",
+    "en": "My surname is Petrosyan.",
+    "ru": "Моя фамилия Петросян.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_7",
+    "audio": {
+      "hy": "/audio/hy/000134.mp3",
+      "en": "/audio/en/000134.mp3",
+      "ru": "/audio/ru/000134.mp3"
+    }
+  },
+  {
+    "id": "000135",
+    "hy": "Մենք ընկերներ ենք։",
+    "en": "We are friends.",
+    "ru": "Мы друзья.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_8",
+    "audio": {
+      "hy": "/audio/hy/000135.mp3",
+      "en": "/audio/en/000135.mp3",
+      "ru": "/audio/ru/000135.mp3"
+    }
+  },
+  {
+    "id": "000136",
+    "hy": "Նա իմ եղբայրն է։",
+    "en": "He is my brother.",
+    "ru": "Он мой брат.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_9",
+    "audio": {
+      "hy": "/audio/hy/000136.mp3",
+      "en": "/audio/en/000136.mp3",
+      "ru": "/audio/ru/000136.mp3"
+    }
+  },
+  {
+    "id": "000137",
+    "hy": "Ինչպե՞ս է քո ազգանունը։",
+    "en": "What is your surname?",
+    "ru": "Какая твоя фамилия?",
+    "type": "phrase",
+    "original_id": "ph_w1l3_10",
+    "audio": {
+      "hy": "/audio/hy/000137.mp3",
+      "en": "/audio/en/000137.mp3",
+      "ru": "/audio/ru/000137.mp3"
+    }
+  },
+  {
+    "id": "000138",
+    "hy": "Հաճելի է ձեզ ճանաչել։",
+    "en": "Nice to know you.",
+    "ru": "Приятно вас знать.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_11",
+    "audio": {
+      "hy": "/audio/hy/000138.mp3",
+      "en": "/audio/en/000138.mp3",
+      "ru": "/audio/ru/000138.mp3"
+    }
+  },
+  {
+    "id": "000139",
+    "hy": "Ես շատ ուրախ եմ։",
+    "en": "I am very happy.",
+    "ru": "Я очень рад.",
+    "type": "phrase",
+    "original_id": "ph_w1l3_12",
+    "audio": {
+      "hy": "/audio/hy/000139.mp3",
+      "en": "/audio/en/000139.mp3",
+      "ru": "/audio/ru/000139.mp3"
+    }
+  },
+  {
+    "id": "000140",
+    "hy": "Սա իմ ընկեր Արամն է։",
+    "en": "This is my friend Aram.",
+    "ru": "Это мой друг Арам.",
+    "type": "dialogue",
+    "original_id": "nurik_139",
+    "audio": {
+      "hy": "/audio/hy/000140.mp3",
+      "en": "/audio/en/000140.mp3",
+      "ru": "/audio/ru/000140.mp3"
+    }
+  },
+  {
+    "id": "000141",
+    "hy": "Բարև, Արամ։ Հաճելի է։",
+    "en": "Hi, Aram. Nice to meet you.",
+    "ru": "Привет, Арам. Приятно.",
+    "type": "dialogue",
+    "original_id": "user_140",
+    "audio": {
+      "hy": "/audio/hy/000141.mp3",
+      "en": "/audio/en/000141.mp3",
+      "ru": "/audio/ru/000141.mp3"
+    }
+  },
+  {
+    "id": "000142",
+    "hy": "Արամը ուսանող է։",
+    "en": "Aram is a student.",
+    "ru": "Арам — студент.",
+    "type": "dialogue",
+    "original_id": "nurik_141",
+    "audio": {
+      "hy": "/audio/hy/000142.mp3",
+      "en": "/audio/en/000142.mp3",
+      "ru": "/audio/ru/000142.mp3"
+    }
+  },
+  {
+    "id": "000143",
+    "hy": "Ի՞նչ ես սովորում։",
+    "en": "What do you study?",
+    "ru": "Что ты изучаешь?",
+    "type": "dialogue",
+    "original_id": "user_142",
+    "audio": {
+      "hy": "/audio/hy/000143.mp3",
+      "en": "/audio/en/000143.mp3",
+      "ru": "/audio/ru/000143.mp3"
+    }
+  },
+  {
+    "id": "000144",
+    "hy": "Ով ես դու։",
+    "en": "Who are you?",
+    "ru": "Кто ты?",
+    "type": "dialogue",
+    "original_id": "nurik_143",
+    "audio": {
+      "hy": "/audio/hy/000144.mp3",
+      "en": "/audio/en/000144.mp3",
+      "ru": "/audio/ru/000144.mp3"
+    }
+  },
+  {
+    "id": "000145",
+    "hy": "Ես … եմ։",
+    "en": "I am ….",
+    "ru": "Я ....",
+    "type": "dialogue",
+    "original_id": "user_144",
+    "audio": {
+      "hy": "/audio/hy/000145.mp3",
+      "en": "/audio/en/000145.mp3",
+      "ru": "/audio/ru/000145.mp3"
+    }
+  },
+  {
+    "id": "000146",
+    "hy": "Ի՞նչ է քո ազգանունը։",
+    "en": "What is your surname?",
+    "ru": "Какая твоя фамилия?",
+    "type": "dialogue",
+    "original_id": "nurik_145",
+    "audio": {
+      "hy": "/audio/hy/000146.mp3",
+      "en": "/audio/en/000146.mp3",
+      "ru": "/audio/ru/000146.mp3"
+    }
+  },
+  {
+    "id": "000147",
+    "hy": "Իմ ազգանունը … է։",
+    "en": "My surname is ….",
+    "ru": "Моя фамилия ....",
+    "type": "dialogue",
+    "original_id": "user_146",
+    "audio": {
+      "hy": "/audio/hy/000147.mp3",
+      "en": "/audio/en/000147.mp3",
+      "ru": "/audio/ru/000147.mp3"
+    }
+  },
+  {
+    "id": "000148",
+    "hy": "Սա ո՞վ է։",
+    "en": "Who is this?",
+    "ru": "Кто это?",
+    "type": "dialogue",
+    "original_id": "nurik_147",
+    "audio": {
+      "hy": "/audio/hy/000148.mp3",
+      "en": "/audio/en/000148.mp3",
+      "ru": "/audio/ru/000148.mp3"
+    }
+  },
+  {
+    "id": "000149",
+    "hy": "Սա իմ եղբայրն է։",
+    "en": "This is my brother.",
+    "ru": "Это мой брат.",
+    "type": "dialogue",
+    "original_id": "user_148",
+    "audio": {
+      "hy": "/audio/hy/000149.mp3",
+      "en": "/audio/en/000149.mp3",
+      "ru": "/audio/ru/000149.mp3"
+    }
+  },
+  {
+    "id": "000150",
+    "hy": "Ի՞նչ է նրա անունը։",
+    "en": "What is his name?",
+    "ru": "Как его зовут?",
+    "type": "dialogue",
+    "original_id": "nurik_149",
+    "audio": {
+      "hy": "/audio/hy/000150.mp3",
+      "en": "/audio/en/000150.mp3",
+      "ru": "/audio/ru/000150.mp3"
+    }
+  },
+  {
+    "id": "000151",
+    "hy": "Նրա անունը … է։",
+    "en": "His name is ….",
+    "ru": "Его зовут ....",
+    "type": "dialogue",
+    "original_id": "user_150",
+    "audio": {
+      "hy": "/audio/hy/000151.mp3",
+      "en": "/audio/en/000151.mp3",
+      "ru": "/audio/ru/000151.mp3"
+    }
+  }
+]
